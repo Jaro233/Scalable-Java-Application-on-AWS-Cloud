@@ -1,5 +1,6 @@
 .terraform.*
 .terraform
-terraform.*
+terraform.tfs*
 ec2*
 spring*
+target/*
