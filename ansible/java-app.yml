@@ -1,0 +1,16 @@
+---
+- name: Install Java app and tools
+  hosts: all
+  become: yes
+  remote_user: ubuntu
+
+  vars:
+    source_dir: files
+    dest_dir: /home/ubuntu/
+    files:
+      - properties.py
+      - start.sh
+      - spring-petclinic-3.1.0-SNAPSHOT.jar
+
+  roles:
+    - java

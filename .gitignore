@@ -1,0 +1,5 @@
+.terraform.*
+.terraform
+terraform.*
+ec2*
+spring*

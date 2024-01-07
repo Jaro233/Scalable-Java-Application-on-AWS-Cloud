@@ -1,0 +1,6 @@
+---
+- name: Install Prometheus JMX Exporter
+  become: true
+  apt:
+    name: prometheus
+    state: present

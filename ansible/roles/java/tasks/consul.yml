@@ -1,0 +1,5 @@
+---
+- name: Install Consul Agent
+  apt:
+    name: consul
+    state: present
