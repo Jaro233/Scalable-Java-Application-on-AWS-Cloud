@@ -3,4 +3,4 @@
 terraform.tfs*
 ec2*
 spring*
-target/*
+target
